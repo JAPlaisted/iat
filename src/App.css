@@ -37,3 +37,7 @@ a {
   --color-headings: #ffffff;
   --border-radius: 30px;
 }
+
+.primary-text {
+  color: var(--color-primary);
+}
