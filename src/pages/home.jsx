@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import Nav from "../components/nav";
+import Hero from '../components/hero';
 
 class Home extends Component {
     render() { 
         return (
             <div>
                 <Nav />
+                <Hero />
       {/* TODO: */}
-      {/* Hero */}
       {/* Plans */}
       {/* Features */}
       {/* Showcase */}
