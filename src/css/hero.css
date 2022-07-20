@@ -6,6 +6,7 @@
 }
 
 .tagline {
+    font-family: 'Merriweather', serif;
     position: relative;
     display: inline-block;
     top: 40%;
@@ -31,6 +32,7 @@
 
 @media screen and (min-width: 1600px) {
     .tagline {
-        padding: 17rem;
+        padding: 20rem;
+        top: 10%;
     }
 }

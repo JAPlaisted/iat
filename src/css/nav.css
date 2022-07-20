@@ -24,6 +24,7 @@ nav {
 
 .nav__item > a {
   color: var(--color-body);
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .nav__item > a:hover {
@@ -44,6 +45,7 @@ nav {
     padding: 0 5px;
     transition: 0.1s ease-in-out;
     margin-inline: 0.5rem;
+    font-family: 'Merriweather', serif;
   }
 
   .logo::before {
