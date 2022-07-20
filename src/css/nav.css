@@ -24,7 +24,6 @@ nav {
 
 .nav__item > a {
   color: var(--color-body);
-  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .nav__item > a:hover {
@@ -44,9 +43,13 @@ nav {
     border: 0;
     padding: 0 5px;
     transition: 0.1s ease-in-out;
-    margin-inline: 0.5rem;
-    font-family: 'Merriweather', serif;
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 0.5s; /* don't forget to set a duration! */
+    animation-delay: 0.9s;
   }
+  
 
   .logo::before {
     content: url("../assets/services.svg");
