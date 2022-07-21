@@ -12,3 +12,47 @@
 .content--block {
     background-color: #7D7C84;
 }
+
+/* Virtual Customer Serivce */
+
+.grid--block > h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 8rem;
+}
+
+.grid--block {
+    position: relative;
+}
+
+.bot {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.grid--block > h4 {
+    text-align: left;
+    margin-left: 1.5rem;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+  
+}
+
+.bot > img {
+    border-radius: 100%;
+    position: relative;
+   
+}
+
+.grid--block > h4::after {
+    content: " ⇁";
+    cursor: pointer;
+}
+
+.grid--block > h4:hover {
+    display: inline-block;
+    animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
