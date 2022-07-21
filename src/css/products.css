@@ -1,0 +1,14 @@
+.grid--block {
+    width: 100%;
+    height: 60vh;
+    color: #fff;
+}
+.virtual--block {
+    background-color: #de8f6e;
+}
+.communication--block {
+    background-color: #DBD56E;
+}
+.content--block {
+    background-color: #7D7C84;
+}

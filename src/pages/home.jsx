@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Nav from "../components/nav";
 import Hero from '../components/hero';
+import Products from '../components/products';
 
 class Home extends Component {
     render() { 
@@ -8,6 +9,7 @@ class Home extends Component {
             <div>
                 <Nav />
                 <Hero />
+                <Products />
       {/* TODO: */}
       {/* Plans */}
       {/* Features */}
