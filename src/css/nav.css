@@ -53,11 +53,24 @@ nav {
   
 
   .logo::before {
-    content: url("../assets/services.svg");
+    content: url("../assets/attitude.png");
     position: relative;
-    top: 10px;
+    top: 5px;
     margin: 1rem;
     z-index: -1;
+  }
+
+  .robot--o {
+    content: url("../assets/attitude-large.png");
+    position: relative;
+    top: 10px;
+  }
+
+  @media screen and (min-width: 768px) {
+   
+  .robot--o {
+    top: -5px;
+  }
   }
 
   .logo {

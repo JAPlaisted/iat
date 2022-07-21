@@ -5,7 +5,7 @@ import "../css/hero.css";
 const Hero = () => {
   return (
     <section className="hero">
-        <p className="tagline animate__animated animate__backInLeft">boring jobs <br /> are for <br /> <span >robots</span></p>
+        <p className="tagline animate__animated animate__backInLeft">boring jobs <br /> are for <br /> r<span className="robot--o"/>b<span className="robot--o"/>ts</p>
     </section>
   );
 };
