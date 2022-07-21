@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Nav from "../components/nav";
 import Hero from '../components/hero';
 import Products from '../components/products';
+import Mission from '../components/mission';
 
 class Home extends Component {
     render() { 
@@ -10,13 +11,7 @@ class Home extends Component {
                 <Nav />
                 <Hero />
                 <Products />
-      {/* TODO: */}
-      {/* Plans */}
-      {/* Features */}
-      {/* Showcase */}
-      {/* Testimonials */}
-      {/* Callout */}
-      {/* Footer */}
+                <Mission />
             </div>
         );
     }

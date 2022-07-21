@@ -1,0 +1,47 @@
+.mission {
+    padding: 12rem;
+    width: 100%;
+    background-color: #88AB75;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.mission > h3 {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    cursor: default;
+}
+
+.mission > h3::after {
+    content: "⇁";
+    cursor: pointer;
+    
+}
+.mission > h3:hover::after {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.city {
+    width: 100%;
+    content: url(../assets/skyline.svg);
+}
+
+@media screen and (min-width: 768px) {
+    .mission {
+        flex-direction: row;
+    }
+
+    .mission > h3 {
+        font-size: 5rem;
+    }
+
+    .city {
+        width: 50%;
+    }
+}

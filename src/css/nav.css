@@ -2,7 +2,7 @@
 
 nav {
   align-items: center;
-  background: var(--color-light);
+  background: #05aec7;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -23,7 +23,7 @@ nav {
 }
 
 .nav__item > a {
-  color: var(--color-body);
+  color: #fff;
 }
 
 .nav__item > a:hover {
@@ -34,11 +34,11 @@ nav {
     margin: 0;
     width: auto;
     display: flex;
+    flex-direction: row;
     font-size: 1rem;
     max-height: 100%;
     opacity: 1;
     transition: 0.1s ease-in-out;
-    display: inline-block;
     margin: 0 0.5rem;
     animation: headShake; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 1s; /* don't forget to set a duration! */
@@ -48,7 +48,6 @@ nav {
   .nav__item {
     border: 0;
     padding: 0 5px;
-    display: inline-block;
   }
   
 
@@ -63,7 +62,7 @@ nav {
   .logo {
     font-size:  10px;
     cursor: pointer;
-    color: var(--color-body-darker);
+    color: #fff;
     z-index: 1;
     text-align: center;
   }

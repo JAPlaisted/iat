@@ -45,7 +45,6 @@ a {
 /* Grids */
 .grid {
   display: grid;
-  margin-bottom: 1rem;
   justify-items: center;
 }
 
