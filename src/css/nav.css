@@ -12,7 +12,7 @@ nav {
 @media screen and (min-width: 768px) {
   nav {
      flex-direction: row;
-     padding: 0.25rem 18rem;
+     padding: 0.25rem 4rem;
   }
 }
 
@@ -31,15 +31,14 @@ nav {
 }
 
   .nav__list {
-    margin: 0;
+    margin: 2rem 0;
     width: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     font-size: 1rem;
     max-height: 100%;
     opacity: 1;
     transition: 0.1s ease-in-out;
-    margin: 0 0.5rem;
     animation: headShake; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 1s; /* don't forget to set a duration! */
     animation-delay: 1s;
@@ -48,6 +47,8 @@ nav {
   .nav__item {
     border: 0;
     padding: 0 5px;
+    margin-bottom: 0.5rem;
+    letter-spacing: 3px;
   }
   
 
