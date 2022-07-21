@@ -1,20 +1,27 @@
 .hero {
     height: 80vh;
-    background-image: url("https://images.pexels.com/photos/3822850/pexels-photo-3822850.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-image: 
+    url("https://cdn.pixabay.com/photo/2021/02/22/05/26/employee-6038877_1280.png"),
+    linear-gradient(
+        #05aec7,
+        #05aec7
+    );
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .tagline {
     font-family: 'Merriweather', serif;
     position: relative;
     display: inline-block;
-    top: 40%;
+    top: 5%;
+    left: 5%;
     font-size: 4rem;
-    color: whitesmoke;
+    color: white;
     text-transform: uppercase;
-    background-color: rgba(0, 0, 0, 0.779);
-    border-radius: 100%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 70%;
     border-left: 5px solid var(--color-primary);
    padding: 2rem;
     text-align: left;
@@ -23,16 +30,15 @@
 @media screen and (min-width: 768px) {
     .tagline {
         top: 0;
-        padding: 7rem;
         font-size: 8rem;
-        left: 10%;
+        left: 5%;
     }
 }
 
 
 @media screen and (min-width: 1600px) {
     .tagline {
-        padding: 20rem;
+    
         top: 10%;
     }
 }
