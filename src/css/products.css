@@ -13,7 +13,18 @@
     background-color: #7D7C84;
 }
 
-/* Virtual Customer Serivce */
+.grid--block > h4::after {
+    content: " ⇁";
+    cursor: pointer;
+}
+
+.grid--block > h4:hover::after {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-iteration-count: 5;
+}
 
 .grid--block > h3 {
     text-align: center;
@@ -24,6 +35,8 @@
 .grid--block {
     position: relative;
 }
+
+/* Virtual Customer Serivce */
 
 .bot {
     text-align: center;
@@ -37,7 +50,6 @@
     position: absolute;
     bottom: 0;
     cursor: pointer;
-  
 }
 
 .bot > img {
@@ -46,13 +58,43 @@
    
 }
 
-.grid--block > h4::after {
-    content: " ⇁";
-    cursor: pointer;
+/* Mass Communication */
+
+.communication--block {
+    background-image: url(../assets/group.svg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.grid--block > h4:hover {
-    display: inline-block;
-    animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s; /* don't forget to set a duration! */
+.communication--block > h2 {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 25vh;
+    text-transform: uppercase;
+    padding: 2rem;
+    background-color: #DBD56E58;
 }
+
+/* Content Creation */
+
+.content--block {
+    background-image: url(../assets/statue.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content--block > p {
+    background-color: #7d7c8458;
+    padding: 2rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 4rem;
+    font-weight: 900;
+    margin-top: 25vh;
+}
+
+.typing::after {
+    content: "|";
+    color: white;
+  }
