@@ -41,7 +41,26 @@
 .bot {
     text-align: center;
     font-size: 1.25rem;
+    position: relative;
+    background-color: #fff;
+    border-radius: 30px;
+    max-width: 300px;
+    margin-left: 7vw;
+    color: var(--color-body-darker);
+    padding: 3rem;
+
 }
+
+@media screen and (min-width: 1600px) {
+    .bot {
+        top: 20%;
+        margin-left: 10vw;
+    }
+  }
+
+  .bot > h3 {
+    border-top: 1px solid black;
+  }
 
 .grid--block > h4 {
     text-align: left;
@@ -55,7 +74,6 @@
 .bot > img {
     border-radius: 100%;
     position: relative;
-   
 }
 
 /* Mass Communication */

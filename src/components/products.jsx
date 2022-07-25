@@ -4,26 +4,6 @@ import "../css/products.css";
 
 const Products = () => {
 
-    const texts = ["despair", "prosper", "eat cake"];
-    let count = 0;
-    let index = 0;
-    let currentText = "";
-    let letter = "";
-
-    (function type() {
-     if (count === texts.length) {
-        count = 0;
-    }
-    currentText = texts[count];
-    letter = currentText.slice(0, ++index);
-
-    document.querySelector(".typing").textContent = letter;
-    if (letter.length === currentText.length) {
-        count++;
-        index = 0;
-    }
-    setTimeout(type, 300);
-})();
 
 
   return (
@@ -31,8 +11,8 @@ const Products = () => {
         <div className="grid grid--1x3">
             <div className="grid--block virtual--block"><h3>Virtual Customer Service</h3>
             <div className="bot">
-                <img src="https://randomuser.me/api/portraits/men/73.jpg" alt="Random User" />
-                <h3>Hi, I'm Tom how can I help you?</h3>
+                <img src="https://randomuser.me/api/portraits/women/79.jpg" alt="Random User" />
+                <h3>Hi, I'm Stacy. How can I help you?</h3>
             </div>
             <h4>Explore</h4>
             </div>
