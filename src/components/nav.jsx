@@ -9,13 +9,10 @@ const Nav = () => {
       <h2 className="logo">Intelligent Automation Technologies</h2>
       <ul className="list nav__list container">
         <li className="nav__item">
-          <HashLink to="#projects">Products</HashLink>
+          <HashLink to="#products">Products</HashLink>
         </li>
         <li className="nav__item">
-          <HashLink to="#solutions">Solutions</HashLink>
-        </li>
-        <li className="nav__item">
-          <HashLink to="#research">Research</HashLink>
+          <HashLink to="../solutions">Solutions</HashLink>
         </li>
         <li className="nav__item">
           <HashLink to="#contact">Contact</HashLink>

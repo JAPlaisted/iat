@@ -9,7 +9,7 @@ const Products = () => {
     };
 
   return (
-    <section className="products">
+    <section id="products" className="products">
         <div className="grid grid--1x3">
             <div className="grid--block virtual--block"><h3>Virtual Customer Service</h3>
             <div className="bot" data-aos="zoom-in">
