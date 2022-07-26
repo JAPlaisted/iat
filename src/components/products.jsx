@@ -14,8 +14,9 @@ const Products = () => {
             <div className="grid--block virtual--block"><h3>Virtual Customer Service</h3>
             <div className="bot">
                 <div className="random--user"><img src="https://randomuser.me/api/portraits/women/79.jpg" alt="Random User" />
-                <h3>Stacy</h3>
                 <div className="green--circle"></div>
+                <h3>Stacy</h3>
+            
                 </div>
                 <p className="message--bot">Hi, I'm Stacy. How can I help you?</p>
                 <p className="message--user">Hi, I was hoping to get <br/> a quote on something.</p>
