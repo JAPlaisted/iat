@@ -45,10 +45,11 @@
     background-color: #fff;
     border-radius: 30px;
     max-width: 300px;
+    max-height: 300px;
     margin-left: 7vw;
     color: var(--color-body-darker);
     padding: 3rem;
-
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 @media screen and (min-width: 1600px) {
@@ -78,19 +79,72 @@
 
 /* Mass Communication */
 
-.communication--block {
-    background-image: url(../assets/group.svg);
-    background-position: center;
-    background-repeat: no-repeat;
+.email {
+    text-align: left;
+    font-size: 1.25rem;
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 300px;
+    height: 240px;
+    margin-left: 7vw;
+    color: var(--color-body-darker);
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
-.communication--block > h2 {
-    font-size: 4rem;
-    text-align: center;
-    margin-top: 25vh;
-    text-transform: uppercase;
-    padding: 2rem;
-    background-color: #DBD56E58;
+@media screen and (min-width: 1600px) {
+    .email {
+        top: 20%;
+        margin-left: 10vw;
+    }
+  }
+
+.email--header {
+    background-color: 
+    #404040;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.email > form  > input{
+    border: 0.5px solid gray;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    outline: none;
+    width: 100%;
+}
+
+.email > form > textarea {
+    resize: none;
+    border: none;
+    outline: none;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+
+}
+
+.btn {
+    margin:  0.5rem;
+    border-radius: 5px;
+    background-color: #1b73e8;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    max-width: 55px;
+    position: relative;
+    bottom: -18px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    filter:brightness(120%);
 }
 
 /* Content Creation */
