@@ -114,9 +114,9 @@
     border-left: none;
     border-right: none;
     border-top: none;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 0.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 0.75rem;
     outline: none;
     width: 100%;
 }
@@ -125,21 +125,21 @@
     resize: none;
     border: none;
     outline: none;
-    padding-top: 0.5rem;
-    padding-left: 0.5rem;
+    padding-top: 0.75rem;
+    padding-left: 0.75rem;
 
 }
 
 .btn {
-    margin:  0.5rem;
+    margin:  0.75rem;
     border-radius: 5px;
     background-color: #1b73e8;
     color: #fff;
     border: none;
-    padding: 0.5rem 1rem;
+    padding: 0.75rem 1rem;
     max-width: 55px;
     position: relative;
-    bottom: -18px;
+    bottom: 4px;
 }
 
 .btn:hover {
