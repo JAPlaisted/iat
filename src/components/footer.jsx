@@ -7,29 +7,37 @@ const Footer = () => {
 
     return ( 
         <section id="footer" className="footer container">
-                   <div className="social--icons" data-aos="fade-up">
+                   <div className="social--icons">
         
-        <svg className="icon">
-         <use xlinkHref={`${Sprite}#linkedin`}></use>
-         </svg>
+        <span data-aos="fade-up" data-aos-duration="500">
+            <svg className="icon" >
+             <use xlinkHref={`${Sprite}#linkedin`}></use>
+             </svg>
+        </span>
  
-         <svg className="icon">
-         <use xlinkHref={`${Sprite}#youtube-svgrepo-com`}></use>
-         </svg>
+         <span data-aos="fade-up" data-aos-duration="750">
+             <svg className="icon">
+             <use xlinkHref={`${Sprite}#youtube-svgrepo-com`}></use>
+             </svg>
+         </span>
    
-         <svg className="icon">
-         <use xlinkHref={`${Sprite}#twitter`}></use>
-         </svg>
+         <span data-aos="fade-up" data-aos-duration="1000">
+             <svg className="icon">
+             <use xlinkHref={`${Sprite}#twitter`}></use>
+             </svg>
+         </span>
          
-         <svg className="icon">
-         <use xlinkHref={`${Sprite}#instagram`}></use>
-         </svg>
+         <span data-aos="fade-up" data-aos-duration="1250">
+             <svg className="icon">
+             <use xlinkHref={`${Sprite}#instagram`}></use>
+             </svg>
+         </span>
    
     </div>
-       <h3 data-aos="fade-up" className='tagline-2' ><a href="https://www.instagram.com/">#ALL INPUT IS ERROR</a></h3>
-       <div className="footer--body vertical-center" data-aos="fade-up">
+       <h3 className='tagline-2' ><a href="https://www.instagram.com/">#ALL INPUT IS ERROR</a></h3>
+       <div data-aos="fade-up" className="footer--body vertical-center">
            <div className="logo--footer">
-            <a href="https://incredible-cactus-081ef1.netlify.app/"><div className="logo-f"></div>
+            <a href="/"><div className="logo-f"></div>
             <h2>&copy; Intelligent Automation Technologies<br/>&nbsp;&nbsp;&nbsp;&nbsp;2022, ALL RIGHTS RESERVED.
             </h2></a>
             <div className="contact">
