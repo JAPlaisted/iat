@@ -152,6 +152,13 @@
     text-align: left;
 }
 
+.email--header::after {
+    position: relative;
+    left: 55%;
+    content: "🟡  🟢  🔴";
+    font-size: 10px;
+}
+
 .email > form  > input{
     border: 0.5px solid gray;
     border-left: none;
@@ -182,7 +189,7 @@
     padding: 0.75rem 1rem;
     max-width: 55px;
     position: relative;
-    bottom: -55px;
+    bottom: -58px;
 }
 
 .btn:hover {
@@ -216,9 +223,18 @@
     height: 100px;
     color:#292929;
     background-color: whitesmoke;
+    padding: 0.1rem 3rem;
+}
+
+.blog--body > h4 {
     font-size: 1.75rem;
     text-align: center;
-    padding: 4rem 1rem;
+}
+.blog--body > p {
+    font-size: .9rem;
+    text-align: left;
+    position: relative;
+    top: -12px;
 }
 
 .blog--footer {
