@@ -29,7 +29,7 @@ const Footer = () => {
        <h3 data-aos="fade-up" className='tagline-2' ><a href="https://www.instagram.com/">#ALL INPUT IS ERROR</a></h3>
        <div className="footer--body vertical-center" data-aos="fade-up">
            <div className="logo--footer">
-            <a href="#"><div className="logo-f"></div>
+            <a href="https://incredible-cactus-081ef1.netlify.app/"><div className="logo-f"></div>
             <h2>&copy; Intelligent Automation Technologies<br/>&nbsp;&nbsp;&nbsp;&nbsp;2022, ALL RIGHTS RESERVED.
             </h2></a>
             <div className="contact">
