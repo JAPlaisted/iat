@@ -1,0 +1,83 @@
+#footer {
+    background-color: whitesmoke;
+    height: 30vh;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+.footer--body {
+ right: 0;
+}
+
+.logo--footer {
+    color: var(--color-body-darker);
+    margin-bottom: 2rem;
+}
+
+.logo--footer > a {
+    color: var(--color-body-darker);
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-f::before {
+    display: inline-block;
+    content: url("../assets/attitude-large.png");
+    background-color:#05aec7;
+    border-radius: 100%;
+    padding: 5px;
+    margin-right: 1rem;
+  }
+
+  /* Icons */
+
+  .social--icons {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 25%;
+    right: -5vw;
+
+  }
+
+  .icon {
+    height: 50px;
+    max-width: 50px;
+    cursor: pointer;
+    margin: 0 5rem;
+  }
+
+ .contact {
+   position: relative;
+   left: 50%;
+ }
+
+ .contact > a {
+    color: var(--color-body-darker);
+    font-size: 2rem;
+ }
+
+ .container {
+    position: relative;
+  }
+  
+  .vertical-center {
+    margin: -2vw 8vw ;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .tagline-2 {
+    position: relative;
+    top: 15%;
+    right: -5vw;
+    font-family: 'Merriweather', serif;
+    font-size: 6rem;
+    cursor: pointer;
+  }
+
+  .tagline-2 > a {
+    color:var(--color-body-darker);
+  }

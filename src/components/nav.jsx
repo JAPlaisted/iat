@@ -15,7 +15,7 @@ const Nav = () => {
           <HashLink to="../solutions">Solutions</HashLink>
         </li>
         <li className="nav__item">
-          <HashLink to="#contact">Contact</HashLink>
+          <HashLink to="#footer">Contact</HashLink>
         </li>
       </ul>
     </nav>
