@@ -100,7 +100,23 @@
   }
 
   .vertical-center {
-    margin: -2vw 11vw ;
+    margin: -2vw 20vw ;
+  }
+
+  
+.logo-f::before {
+    content: url("../assets/attitude.png");
+    left: 25vw;
+    position: relative;
+  }
+
+  .logo--footer > a {
+    flex-direction: column;
+}
+
+.mailto{
+    left: -7vw;
+    position: relative;
   }
 
   }

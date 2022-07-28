@@ -41,7 +41,7 @@ const Footer = () => {
             <h2>&copy; Intelligent Automation Technologies<br/>&nbsp;&nbsp;&nbsp;&nbsp;2022, ALL RIGHTS RESERVED.
             </h2></a>
             <div className="contact">
-           <a href="mailto:jonathan.plaisted@outlook.com">@IAT</a>  
+           <a className='mailto' href="mailto:jonathan.plaisted@outlook.com">@IAT</a>  
            </div>
            </div>
        </div>
