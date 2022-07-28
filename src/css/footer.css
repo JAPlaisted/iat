@@ -81,3 +81,26 @@
   .tagline-2 > a {
     color:var(--color-body-darker);
   }
+
+  @media screen and (max-width: 400px) {
+    
+  .social--icons {
+    top: 5%;
+    right: -5%;
+  }
+
+  .icon {
+    margin: 0 2rem;
+  }
+
+  .tagline-2 {
+    top: 5%;
+    right: -20%;
+    font-size: 2rem;
+  }
+
+  .vertical-center {
+    margin: -2vw 11vw ;
+  }
+
+  }
