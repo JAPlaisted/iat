@@ -19,8 +19,11 @@ const Products = () => {
             
                 </div>
                 <p className="message--bot" data-aos="fade-up">Hi, I'm Stacy. How can I help you?</p>
-                <p className="message--user" data-aos="fade-up">Hi, I was hoping to get <br/> a quote on something.</p>
-                <p className="message--bot" data-aos="fade-up">Sure, what are you looking to get a quote on?</p>
+                <p className="message--user" data-aos="fade-up">Hi, how many pieces come in the medium box? </p>
+                <p className="message--bot" data-aos="fade-up">10 pieces, however, this varies by the size of each piece. You may have more or less total, but always 12oz of material.</p>
+                <p className="message--bot" data-aos="fade-up">Does that answer your question? </p>
+                <p className="message--user" data-aos="fade-up">For sure, thanks!</p>
+                <p className="message--bot" data-aos="fade-up">Happy tp help, have a great rest of your day! </p>
             </div>
             <h4>Explore</h4>
             </div>
