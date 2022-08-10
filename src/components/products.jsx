@@ -12,11 +12,11 @@ const Products = () => {
     <section id="products" className="products">
         <div className="grid grid--1x3">
             <div className="grid--block virtual--block"><h3>Virtual Customer Service</h3>
-            <BOT/>
+            <div className="center--m"><BOT/></div>
             <h4>Explore</h4>
             </div>
             <div className="grid--block communication--block"><h3>Mass Communication</h3>
-            <EMAIL/>
+            <div className="center--m"><EMAIL/></div>
             <h4>Explore</h4></div>
             <div className="grid--block content--block"><h3>Prompt Engineering</h3>
             <Prompt/>

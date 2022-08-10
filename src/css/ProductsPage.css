@@ -44,6 +44,10 @@ font-size: 2rem;
 color: var(--color-primary);
 }
 
+.desc-2 {
+    margin-bottom: 8rem;
+}
+
 
 @media screen and (min-width: 768px) {
     .desc-1 {
@@ -69,6 +73,25 @@ color: var(--color-primary);
 
   /* Prompt Engineering */
 
+   /* Prompts Mobile */
+
+   .prompt--images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 30vw);
+    grid-gap: 5px;
+    position: relative;
+    left: -8rem;
+  }
+
+  .propmt--image {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+  @media screen and (min-width: 768px) {
   .prompt--images {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -124,3 +147,6 @@ color: var(--color-primary);
     grid-row-start: 6;
     grid-row-end: 9;
 }
+  }
+
+ 

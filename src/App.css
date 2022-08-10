@@ -64,3 +64,10 @@ a {
   margin: auto;
   width: 50%;
 }
+
+@media screen and (max-width: 400px) {
+  .center--m {
+    margin: auto;
+    width: 50%;
+  }
+}
