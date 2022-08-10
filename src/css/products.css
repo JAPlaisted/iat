@@ -62,6 +62,10 @@
     cursor: pointer;
 }
 
+.grid--block > h4 > a {
+    color: white;
+}
+
 .random--user {
     display: flex;
     flex-direction: row;
