@@ -196,74 +196,37 @@
     filter:brightness(120%);
 }
 
-/* Content Creation */
+/* Prompt Engineering */
 
-.blog--post {
-    max-width: 300px;
-    margin-left: 7vw;
-    border-radius: 10px;
+.prompt {
+    height: 50rem;
     position: relative;
-    top: -50px;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
-.blog--header {
-    background-color:#010101;
-    background-image: url("https://electrek.co/wp-content/uploads/sites/3/2019/01/srf-teaser-header.jpg?quality=82&strip=all");
-    height: 20rem;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.blog--body {
-    height: 24rem;
-    color:#292929;
-    background-color: whitesmoke;
-    padding: 0.1rem 3rem;
-}
-
-.blog--body > h4 {
-    font-size: 1.75rem;
-    text-align: center;
-}
-.blog--body > p {
-    font-size: 1.2rem;
-    text-align: left;
-    position: relative;
-    top: 3rem;
-}
-
-.blog--footer {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    height: 60px;
-    background-color: whitesmoke;
-    display: flex;
-    flex-direction: row;
-}
-
-.blog--footer > img {
+.prompt > img {
+    height: 200px;
     border-radius: 100%;
-    height: 50px;
-    width: 50px;
     position: relative;
-    left: 5px;
-    top: 5px;
-    margin-right: 1rem;
+    left: 30%;
 }
 
-.blog--footer > p {
-    color: #292929;
-    position: relative;
-    top: 5px;
+.prompt > p {
+    font-size: 3rem;
+    text-align: center;
 }
 
 @media screen and (min-width: 1600px) {
-    .bot, .email, .blog--post {
+    .bot, .email {
         top: 20%;
         margin-left: 10vw;
     }
+
+    .prompt {
+        top: 20%;
+    }
+
+    .prompt > img {
+        left: 38%;
+    }
+
   }

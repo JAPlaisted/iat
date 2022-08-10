@@ -1,0 +1,126 @@
+.header {
+    height: 50vh;
+    background-color: var(--color-background);
+}
+
+.header > h2 {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 2%;
+    border-bottom: 1px solid white;
+    text-align: center;
+    align-items: center;
+}
+
+.header > h2 > a {
+    color: whitesmoke;
+    margin-top: 15%;
+}
+
+.header > h2 > a:hover{
+    color: var(--color-primary);
+}
+
+.header > p {
+    max-width: 60rem;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.products {
+ display: flex;
+ flex-direction: column;
+}
+
+.products > h3, 
+.services > h3 {
+margin-top: 2rem;
+margin-bottom: 10rem;
+margin-left: 1rem;
+text-align: left;
+font-size: 2rem;
+color: var(--color-primary);
+}
+
+
+@media screen and (min-width: 768px) {
+    .desc-1 {
+        position: relative;
+        top: -40rem;
+        left: 60%;
+    }
+    .desc-2 {
+        position: relative;
+        top: 20rem;
+        left: 60%;
+    }
+    .desc-3 {
+        position: relative;
+        top: 30rem;
+        left: 100%;
+    }
+  }
+
+  .services {
+    margin-bottom: 5%;
+  }
+
+  /* Prompt Engineering */
+
+  .prompt--images {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 5px;
+}
+
+.propmt--image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gallery__item--3 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.gallery__item--4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+.gallery__item--5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+.gallery__item--6 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
