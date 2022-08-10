@@ -6,7 +6,7 @@ import "../css/nav.css";
 const Nav = () => {
   return (
     <nav>
-      <h2 className="logo">Intelligent Automation Technologies</h2>
+      <h2 className="logo"><a href="/">Intelligent Automation Technologies</a></h2>
       <ul className="list nav__list container">
         <li className="nav__item">
           <HashLink to="#products">Products</HashLink>
