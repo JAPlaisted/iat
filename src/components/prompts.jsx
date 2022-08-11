@@ -13,19 +13,19 @@ const PROMPTS = () => {
             <img className='propmt--image' data-aos="fade-up" src={shake} alt="A Milkshake overlooking the moon" />
             </figure>
             <figure className='gallery__item gallery__item--2'>
-            <img className='propmt--image' data-aos="fade-up" src={chess} alt="An AI rendered photo of a pizza shaped armchair" />
+            <img className='propmt--image' data-aos="fade-up" src={chess} alt="An AI rendered pizza shaped armchair" />
             </figure>
             <figure className='gallery__item gallery__item--3'>
-            <img className='propmt--image' data-aos="fade-up" src={pyramid} alt="An AI rendered photo of a Monkey skateboarding near the Pyramids in Egypt" />
+            <img className='propmt--image' data-aos="fade-up" src={pyramid} alt="An AI rendered Monkey skateboarding near the Pyramids in Egypt" />
             </figure>
             <figure className='gallery__item gallery__item--4'>
-            <img className='propmt--image' data-aos="fade-up" src={dog} alt="An AI rendered photo of a dog" />
+            <img className='propmt--image' data-aos="fade-up" src={dog} alt="An AI rendered dog" />
             </figure>
             <figure className='gallery__item gallery__item--5'>
-            <img className='propmt--image' data-aos="fade-up" src={chair} alt="An AI rendered photo of a pizza shaped armchair" />
+            <img className='propmt--image' data-aos="fade-up" src={chair} alt="An AI rendered pizza shaped armchair" />
             </figure>
             <figure className='gallery__item gallery__item--6'>
-            <img className='propmt--image' data-aos="fade-up" src={robot} alt="An AI rendered photo of a Monkey skateboarding near the Pyramids in Egypt" />
+            <img className='propmt--image' data-aos="fade-up" src={robot} alt="An AI rendered Monkey skateboarding near the Pyramids in Egypt" />
             </figure>
             </div>
      );
