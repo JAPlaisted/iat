@@ -1,0 +1,32 @@
+.solutions > .header > h2{
+    color: white;
+    font-size: 6rem;
+}
+.header > h2 > span{
+    margin-top: 20%;
+}
+
+.solutions--body  {
+    text-align: left;
+}
+
+.solutions--body > h3,
+.solutions--body > span > p {
+    margin-inline: 1rem;
+}
+
+.solutions--body > span > p {
+    line-height: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .solutions--body > h3,
+    .solutions--body > span > p {
+        margin-inline: 50rem;
+    } 
+}
+
+.solutions--body {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}

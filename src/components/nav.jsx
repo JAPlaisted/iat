@@ -9,7 +9,7 @@ const Nav = () => {
       <h2 className="logo"><a href="/">Intelligent Automation Technologies</a></h2>
       <ul className="list nav__list container">
         <li className="nav__item">
-          <HashLink to="#products">Products</HashLink>
+          <HashLink to="../products">Products</HashLink>
         </li>
         <li className="nav__item">
           <HashLink to="../solutions">Solutions</HashLink>
