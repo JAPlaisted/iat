@@ -49,7 +49,7 @@ const ProductsPage = () => {
                          Unfortuneatly AI is a bit of a black-box. It can be <br/> 
                          difficult to prompt these AI tools effectively. With <br/>
                          Prompt Engineering, you can save time and money <br/>
-                         with and achieve repeatable results.</p>
+                         and achieve repeatable results.</p>
                         <h4><a href="mailto:IAT-Inquiry@outlook.com?subject=Automation Inquiry - Prompt Engineering">Inquire</a></h4>
                     </div>
                     <PROMPTS/>
