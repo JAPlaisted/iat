@@ -15,6 +15,10 @@
     cursor: pointer;
 }
 
+.mission > h3 > a {
+    color: #fff;
+}
+
 .mission > h3::after {
     content: "⇁";
     cursor: pointer;
