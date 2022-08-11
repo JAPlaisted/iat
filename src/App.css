@@ -24,6 +24,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-size: 1.2rem
+}
+
 /* Lists */
 .list {
   list-style: none;

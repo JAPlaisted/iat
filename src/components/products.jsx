@@ -13,11 +13,11 @@ const Products = () => {
         <div className="grid grid--1x3">
             <div className="grid--block virtual--block"><h3>Virtual Customer Service</h3>
             <div className="center--m"><BOT/></div>
-            <h4>Explore</h4>
+            <h4><a href="/products">Explore</a></h4>
             </div>
             <div className="grid--block communication--block"><h3>Mass Communication</h3>
             <div className="center--m"><EMAIL/></div>
-            <h4>Explore</h4></div>
+            <h4><a href="/products">Explore</a></h4></div>
             <div className="grid--block content--block"><h3>Prompt Engineering</h3>
             <Prompt/>
             <h4><a href="/products">Explore</a></h4></div>

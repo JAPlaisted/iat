@@ -29,6 +29,27 @@
     font-size: 1.3rem;
 }
 
+.header > p > a {
+    color: var(--color-primary);
+}
+
+h4 > a {
+    color: var(--body-darker);
+}
+
+.desc-2 > h4 > a::after, .desc-3 > h4 > a::after{
+    content: " ⇁";
+    cursor: pointer;
+}
+
+h4 > a:hover::after {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-iteration-count: 5;
+}
+
 .products {
  display: flex;
  flex-direction: column;
