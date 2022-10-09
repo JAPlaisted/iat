@@ -4,6 +4,7 @@ import Hero from '../components/hero';
 import Products from '../components/products';
 import Mission from '../components/mission';
 import Footer from '../components/footer'
+import AutomationPage from '../components/AutomationPage';
 
 class Home extends Component {
     render() { 
@@ -11,6 +12,7 @@ class Home extends Component {
             <div>
                 <Nav />
                 <Hero />
+                <AutomationPage />
                 <Products />
                 <Mission />
                 <Footer />

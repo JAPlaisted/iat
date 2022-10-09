@@ -1,0 +1,69 @@
+.automation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.paragraph > h2,
+.paragraph > p {
+    position: relative;
+    left: 1rem;
+}
+.paragraph > h2 {
+    font-size: 3rem;
+}
+.paragraph > p {
+    font-size: 1.5rem;
+    display: block;
+    width: 35rem;
+    line-height: 2.25rem;
+}
+.btn--secondary {
+    font-size: 1.75rem;
+    padding: 1.5rem;
+    width: 30rem;
+    background-color: var(--color-primary);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    position: relative;
+    left: 10%;
+    margin-bottom: 1rem;
+}
+.btn--secondary:hover {
+    cursor: pointer;
+}
+@media screen and (min-width: 400px) {
+    .automation {
+        flex-direction: row;
+        height: 75vh;
+    }
+    .paragraph > h2,
+    .paragraph > p {
+        top: 10rem;
+        left: 10rem;
+    }
+    .paragraph > p {
+        width: 45rem;
+    }
+    .btn--secondary {
+        left: -50%;
+    }
+}
+@media screen and (min-width: 1600px) {
+    .btn--secondary {
+        left: -110%;
+        top: 20rem;
+    }
+    .robot-dance {
+        position: relative;
+        left: -60%;
+        top: 20rem;
+    }
+    .paragraph > h2,
+    .paragraph > p {
+    top: 30rem;
+    left: 50rem;
+}
+}
+

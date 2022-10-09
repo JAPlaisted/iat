@@ -8,7 +8,7 @@ const Solutions = () => {
     <section id='solutions' className='solutions'>
         <Nav/>
         <section className="header">
-                <h2 className='center'><span>SOLUTIONS</span></h2>
+                <h2 className='center'><span>MISSION</span></h2>
             </section>
         <section className='solutions--body'>
         <h3>Master Plan:</h3>

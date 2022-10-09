@@ -12,7 +12,7 @@ const ProductsPage = () => {
             <Nav />
             <section className="header">
                 <h2 className='center'><a href="#products">Products</a><a href="#services">Services</a></h2>
-                <p className='center'>Intelligent Automation Technologies is dedicated to creating an autonomous future. A future where work is optional and humans are free to dedicate their lives to discovering their passions. To do our part, IAT is obsessed with the automation of boring, tedious, and dangerous jobs. If you are interested in discussing possible automation solutions for your business, submit and inquiry <a href="mailto:IAT-Inquiry@outlook.com?subject=Automation Inquiry">HERE</a></p>
+                <p className='center'>Intelligent Automation Technologies is dedicated to creating an autonomous future. A future where work is optional and humans are free to dedicate their lives to discovering their passions. To do our part, IAT is obsessed with the automation of boring, tedious, and dangerous jobs. If you are interested in discussing possible automation solutions for your business, submit and inquiry <a href="mailto:jon@intelligentautomationtech.com?subject=Free%20Automation%20Consultation&body=Hello, I would like to schedule a free consultation for my business!">HERE</a></p>
             </section>
             <section id="products" className='products'>
                 <h3>Products</h3>
@@ -37,7 +37,7 @@ const ProductsPage = () => {
                          without the trouble of paying a new employee salary. <br/> 
                          Or extend your customer service to 24 hours a day with <br/>
                          these custom made Virtual Customer Assistants.</p>
-                        <h4><a href="mailto:IAT-Inquiry@outlook.com?subject=Automation Inquiry - Virtual Customer Service">Inquire</a></h4>
+                        <h4><a href="mailto:jon@intelligentautomationtech.com?subject=Automation Inquiry - Virtual Customer Service">Inquire</a></h4>
                     </div>
                     <BOT/>
                 </div>
@@ -50,7 +50,7 @@ const ProductsPage = () => {
                          difficult to prompt these AI tools effectively. With <br/>
                          Prompt Engineering, you can save time and money <br/>
                          and achieve repeatable results.</p>
-                        <h4><a href="mailto:IAT-Inquiry@outlook.com?subject=Automation Inquiry - Prompt Engineering">Inquire</a></h4>
+                        <h4><a href="mailto:jon@intelligentautomationtech.com?subject=Automation Inquiry - Prompt Engineering">Inquire</a></h4>
                     </div>
                     <PROMPTS/>
                 </div>
