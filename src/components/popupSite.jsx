@@ -1,5 +1,5 @@
 import React from 'react';
-import shoes from "../assets/sneakers.png"
+import zoa from "../assets/zoa-tropical.webp"
 
 
 const PopupSite = () => {
@@ -14,14 +14,24 @@ const PopupSite = () => {
                 </nav>
             </header>
             <div data-aos="fade-up">
-                <h3>Nike Air</h3>
-                <img className='shoes' src={shoes} alt="A pair of sneakers" />
+                <h3>ZOA ENERGY</h3>
+                <img className='popup-logo' src={zoa} alt="A can of Zoa energy" />
             </div>
             <div className='popup-text'>
-                <h4 data-aos="fade-up">Product Details: </h4>
-                <p data-aos="fade-up">Foam midsole.</p>
-                <p data-aos="fade-up">Perforations on the toe.</p>
-                <p data-aos="fade-up">Rubber sole.</p>
+                
+            <span data-aos="fade-up">
+                <h4>IMMUNITY SUPPORT</h4>
+                <p>ZOA fights for you with immunity-promoting vitamin C
+                    from ascorbic acid and superfoods camu camu and
+                    acerola. With an excellent source of vitamin C, you're
+                    helping protect your cells against damage and bolstering your immune system.</p>
+            </span>
+            <span data-aos="fade-up">
+                <h4>WARRIOR STRENGTH</h4>
+                <p>Even the strongest warriors need support. That's why ZOA
+                    contains a unique blend of vitamins, caffeine and other
+                    ingredients to support your workout.</p>
+            </span>
             </div>
         </div>
      );

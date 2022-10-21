@@ -248,8 +248,8 @@
     text-align: left;
     font-size: 1.25rem;
     position: relative;
-    background-color: #fff;
     color: white;
+    background-color: #3195dc;
     border-radius: 10px;
     width: 300px;
     height: 50rem;
@@ -270,31 +270,33 @@
         left: 10vw;
     }
 }
-.popup > div > .shoes {
+.popup > div > .popup-logo {
     max-height: 100px;
     float: right;
-    margin-right: 25%;
+    margin-right: 40%;
     z-index: -1;
 }
 .popup > div > h3 {
     float: left;
-    margin-left: 1em;
+    margin-left: 2.5em;
     position: relative;
     font-family: fantasy;
     font-size: 3rem;
     z-index: 1;
-    color: #d54831;
-    border-bottom: 1px solid #d54831;
+    color: #2b2b2f;
     margin-top: 4rem;
 }
 .popup-text {
     float: left;
     margin-top: 4rem;
-    color: rgb(19, 19, 19);
-    background-color: #40404013;
+    color: #fff;
+    background-color: #c1c1c130;
     padding: 1rem;
-    height: 40%;
+    height: 42%;
     width: 100%;
+    overflow: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .popup-text > p, .popup-text > h4 {
     margin-left: 2em;
