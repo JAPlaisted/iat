@@ -289,7 +289,6 @@
 .popup-text {
     float: left;
     margin-top: 4rem;
-    color: #fff;
     background-color: #c1c1c130;
     padding: 1rem;
     height: 42%;
@@ -297,9 +296,9 @@
     overflow: hidden;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    color: #fff;
 }
-.popup-text > p, .popup-text > h4 {
-    margin-left: 2em;
- 
+.popup-text > span > h4 {
+    color: #2b2b2f;
 }
 
