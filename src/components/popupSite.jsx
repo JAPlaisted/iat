@@ -1,37 +1,31 @@
 import React from 'react';
-import zoa from "../assets/zoa-tropical.webp"
-
+import pacifica from "../assets/PacificaLogo.png"
 
 const PopupSite = () => {
 
     return ( 
-        <div className="popup" data-aos="zoom-in">
-            <header data-aos="fade-up">
-                <nav>
-                    <p>Home</p>
-                    <p>About</p>
-                    <p>Cart</p>
-                </nav>
-            </header>
-            <div data-aos="fade-up">
-                <h3>ZOA ENERGY</h3>
-                <img className='popup-logo' src={zoa} alt="A can of Zoa energy" />
-            </div>
-            <div className='popup-text'>
-                
-            <span data-aos="fade-up">
-                <h4>IMMUNITY SUPPORT</h4>
-                <p>ZOA fights for you with immunity-promoting vitamin C
-                    from ascorbic acid and superfoods camu camu and
-                    acerola. With an excellent source of vitamin C, you're
-                    helping protect your cells against damage and bolstering your immune system.</p>
-            </span>
-            <span data-aos="fade-up">
-                <h4>WARRIOR STRENGTH</h4>
-                <p>Even the strongest warriors need support. That's why ZOA
-                    contains a unique blend of vitamins, caffeine and other
-                    ingredients to support your workout.</p>
-            </span>
+        <div data-aos="zoom-in">
+            <div className="popup">
+                <header data-aos="fade-up">
+                    <nav>
+                        <p>Menu</p>
+                        <p>Order</p>
+                        <p>Contact</p>
+                    </nav>
+                </header>
+                <div data-aos="fade-up">
+                    <img className='popup-logo' src={pacifica} alt="Pacifica Pizza logo" />
+                </div>
+                <div className='popup-text'>
+                    <span data-aos="fade-up">
+                        <p>The Best Pizza Can Get</p>
+                        <h4>Pizza</h4>
+                        <h4>Sandwhiches</h4>
+                        <h4>Salad</h4>
+                        <h4>Appetizers</h4>
+                        <h4>Beverages</h4>
+                    </span>
+                </div>
             </div>
         </div>
      );
